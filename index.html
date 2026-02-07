@@ -3,14 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Blog_Cafe</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
     <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preload" href="img/blog1.jpg" as="image">
+    <link rel="preload" href="img/blog2.jpg" as="image">
+    <link rel="preload" href="img/blog3.jpg" as="image">
+
+    <!-- Prefetch-->
+
+    <link rel="prefetch" href="nosotros.html" as="document">
+    <link rel="prefetch" href="cursos.html" as="document">
 
 </head>
 <body>
@@ -47,7 +61,7 @@
 
             <article class="entrada">
                 <div class="entrada__imagen">
-                    <img src="img/blog1.jpg" alt="imagen blog">
+                    <img loading="lazy" src="img/blog1.jpg" alt="imagen blog">
                     <div class="entrada__contenido">
                         <h4 class="no-margin">Tipos de granos de cafe</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et enim nec leo vehicula aliquam ut eget eros. In viverra tortor sed justo rhoncus, quis condimentum dolor maximus. Nam varius facilisis odio, ut gravida dui consequat volutpat. Nam interdum mi eget velit tempor imperdiet. Sed vitae metus quis urna fermentum tempor non et elit. In eu purus vitae tellus laoreet posuere. Quisque sit amet nulla sed est tempus finibus id et nibh.</p>
@@ -58,7 +72,7 @@
 
             <article class="entrada">
                 <div class="entrada__imagen">
-                    <img src="img/blog2.jpg" alt="imagen blog">
+                    <img loading="lazy" src="img/blog2.jpg" alt="imagen blog">
                     <div class="entrada__contenido">
                         <h4 class="no-margin">3 Deliciosas recetas de cafe</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et enim nec leo vehicula aliquam ut eget eros. In viverra tortor sed justo rhoncus, quis condimentum dolor maximus. Nam varius facilisis odio, ut gravida dui consequat volutpat. Nam interdum mi eget velit tempor imperdiet. Sed vitae metus quis urna fermentum tempor non et elit. In eu purus vitae tellus laoreet posuere. Quisque sit amet nulla sed est tempus finibus id et nibh.</p>
@@ -69,7 +83,7 @@
 
             <article class="entrada">
                 <div class="entrada__imagen">
-                    <img src="img/blog3.jpg" alt="imagen blog">
+                    <img loading="lazy" src="img/blog3.jpg" alt="imagen blog">
                     <div class="entrada__contenido">
                         <h4 class="no-margin">Beneficios del cafe</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et enim nec leo vehicula aliquam ut eget eros. In viverra tortor sed justo rhoncus, quis condimentum dolor maximus. Nam varius facilisis odio, ut gravida dui consequat volutpat. Nam interdum mi eget velit tempor imperdiet. Sed vitae metus quis urna fermentum tempor non et elit. In eu purus vitae tellus laoreet posuere. Quisque sit amet nulla sed est tempus finibus id et nibh.</p>

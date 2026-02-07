@@ -1,0 +1,15 @@
+<div class="entrada__imagen">
+
+---------------------------------------------------------------------------------------------------
+		    <picture>
+			<source srcset = "img/blog3.webp" type="image/webp">
+		    </picture>
+ 
+                    <img loading="lazy" src="img/blog3.jpg" alt="imagen blog">
+---------------------------------------------------------------------------------------------------
+                    <div class="entrada__contenido">
+                        <h4 class="no-margin">Beneficios del cafe</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et enim nec leo vehicula aliquam ut eget eros. In viverra tortor sed justo rhoncus, quis condimentum dolor maximus. Nam varius facilisis odio, ut gravida dui consequat volutpat. Nam interdum mi eget velit tempor imperdiet. Sed vitae metus quis urna fermentum tempor non et elit. In eu purus vitae tellus laoreet posuere. Quisque sit amet nulla sed est tempus finibus id et nibh.</p>
+                        <a href="entrada.html" class="boton boton--primario">Leer entrada</a>
+                    </div>
+                </div>
